@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <base href="/openrouter_takehome/">
+  <title>The Daily Meili · OpenRouter Studio</title>
+  <meta name="description" content="Explore Meili’s content workflow and compare video models with OpenRouter. Built by Michelle.">
+  <link rel="icon" href="assets/app-icon.png">
+  <link rel="stylesheet" href="takehome.css?v=model-notes-1">
+</head>
+<body>
+  <header class="site-header">
+    <a class="identity" href="https://thedailymeili.com/" aria-label="The Daily Meili home"><img src="assets/app-icon.png" alt=""><span><strong>THE DAILY MEILI</strong><small>OpenRouter Studio</small></span></a>
+    <nav class="room-nav" aria-label="The rooms"><a href="#sourcing">01 <span>Sourcing</span></a><a href="#writing">02 <span>Writing</span></a><a href="#mail">03 <span>Mail</span></a><a href="#production">04 <span>Studio</span></a></nav>
+    <button class="owner-button" id="ownerButton" aria-label="Log in to demo">Log in <span aria-hidden="true">↗</span></button>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="introTitle">
+      <div class="intro-copy"><span class="eyebrow">MICHELLE’S OPENROUTER TAKE-HOME</span><h1 id="introTitle">Meili’s content studio.</h1><p>Follow a brief from the sourcing room to a video comparison with OpenRouter.</p><a class="quiet-link" href="#sourcing">Meet the team <span aria-hidden="true">↓</span></a></div>
+
+    </section>
+
+    <section class="room-section" id="sourcing" aria-labelledby="sourcingTitle">
+      <div class="room-heading"><div><span class="eyebrow">01 / THE SCOUTS</span><h2 id="sourcingTitle">Find the brief.</h2></div></div>
+      <div class="sourcing-stage">
+      <div class="scene-wrap" id="sourcingWrap"><canvas id="sourcingCanvas" role="img" aria-label="A cream isometric office with Pip the corgi and Owl working at their desks."></canvas><div class="object-hotspots" id="sourcingHotspots"></div><div class="object-hint" id="sourcingHint" role="status"></div><div class="thought-bubble" id="sourcingBubble" aria-live="polite" hidden></div></div>
+      <div class="room-caption"><span class="sample-label"><i aria-hidden="true"></i> DEMO WORKFLOW · SCROLL TO MEET THE TEAM</span><div class="character-links"><button data-talk="owl" aria-pressed="true">01 Owl</button><button data-talk="pip" aria-pressed="false">02 Pip</button></div></div>
+      </div>
+    </section>
+
+    <div class="floor-divider" aria-hidden="true"><i></i><span>↓</span></div>
+
+    <section class="room-section" id="writing" aria-labelledby="writingTitle">
+      <div class="room-heading"><div><span class="eyebrow">02 / MEILI’S WRITING ROOM</span><h2 id="writingTitle">Write the pitch.</h2></div></div>
+      <div class="scene-wrap" id="writingWrap"><canvas id="writingCanvas" role="img" aria-label="Meili stays at her desk in a peach writing room. Her thought appears as you scroll."></canvas><div class="object-hotspots" id="writingHotspots"></div><div class="object-hint" id="writingHint" role="status"></div><div class="thought-bubble" id="writingBubble" aria-live="polite" hidden></div></div>
+      <div class="room-caption"><span class="sample-label"><i aria-hidden="true"></i> SAMPLE AGENT · NOTHING IS SENT</span><button class="quiet-link" data-talk="meili">A word from Meili <span aria-hidden="true">↗</span></button></div>
+    </section>
+
+    <div class="floor-divider" aria-hidden="true"><i></i><span>↓</span></div>
+
+    <section class="room-section" id="mail" aria-labelledby="mailTitle">
+      <div class="room-heading"><div><span class="eyebrow">03 / THE MAIL ROOM</span><h2 id="mailTitle">Deliver the project.</h2></div></div>
+      <div class="scene-wrap" id="mailWrap"><canvas id="mailCanvas" role="img" aria-label="A postal corgi receives Meili’s bottled letters in a sage mail room and carries a project to the elevator."></canvas><div class="object-hotspots" id="mailHotspots"></div><div class="object-hint" id="mailHint" role="status"></div><div class="thought-bubble" id="mailBubble" aria-live="polite" hidden></div></div>
+      <div class="room-caption"><span class="sample-label"><i aria-hidden="true"></i> SAMPLE HANDOFF · SCROLL TO FOLLOW</span><button class="quiet-link" data-talk="post">Meet the post-corgi <span aria-hidden="true">↗</span></button></div>
+    </section>
+
+    <div class="elevator-connector" id="elevatorConnector" aria-label="The postal corgi travels downstairs as you scroll"><div class="elevator-rail"></div><div class="elevator-car" id="elevatorCar"><span class="elevator-number" id="elevatorNumber">03 ↓</span><canvas id="elevatorCorgi" width="120" height="96" aria-hidden="true"></canvas></div></div>
+
+    <section class="room-section production-section" id="production" aria-labelledby="productionTitle">
+      <div class="room-heading"><div><span class="eyebrow">04 / THE PRODUCTION STUDIO</span><h2 id="productionTitle">Start small. Pick your take.</h2></div></div>
+      <div class="generation-mode-picker" role="group" aria-label="Generation mode"><button id="draftMode" type="button" aria-pressed="true"><span>Cheap draft</span><small id="draftModeDetail">Mini · 480p · one clip</small></button><button id="compareMode" type="button" aria-pressed="false"><span>Compare models</span><small id="compareModeDetail">Two models · 720p</small></button></div>
+      <div id="studioModelChooser" class="studio-model-chooser"></div>
+      <p class="generation-mode-note" id="generationModeNote">Start with one lower-resolution draft. Try a second model only if you want another take.</p>
+      <div class="studio-notice" id="studioNotice" role="status">Connecting to the studio…</div>
+      <div class="scene-wrap lab-wrap" id="productionWrap"><canvas id="productionCanvas" role="img" aria-label="A clean sage production lab with three worktables. Each has a product reference, a Meili reference, prompt notes, and a red generation button."></canvas><div class="object-hotspots" id="productionHotspots"></div><div class="object-hint" id="productionHint" role="status"></div></div>
+      <div class="studio-caption"><p>Click the notes to review the prompt.<br><strong id="studioActionHint">Press a red button for one cheap draft.</strong></p><span id="referenceNote">Your first take, then your call.</span></div>
+      <div class="brief-list" id="briefList" aria-label="Sample projects"></div>
+      <div class="studio-footnote"><span>DEMO BRIEFS · NO BRAND PARTNERSHIPS IMPLIED</span><span id="balanceFootnote">Account balance is shown only when available.</span></div>
+    </section>
+
+
+  </main>
+  <footer class="site-footer"><span>THE DAILY MEILI · BUILT BY MICHELLE</span><span>Built with <a href="https://openrouter.ai/" target="_blank" rel="noopener noreferrer">OpenRouter</a></span><button id="calmButton" aria-pressed="false">◌ Calm mode</button></footer>
+
+  <div class="drawer-scrim" id="drawerScrim" hidden></div>
+  <aside class="studio-drawer" id="studioDrawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" hidden>
+    <header class="drawer-header"><div><span class="eyebrow">THE COMPARISON DESK</span><h2 id="drawerTitle">Video comparison</h2></div><button class="close-button" id="closeDrawer" aria-label="Close comparison desk">×</button></header>
+    <div class="drawer-content" id="drawerContent"></div>
+  </aside>
+  <dialog class="notes-dialog" id="notesDialog" aria-labelledby="notesTitle"><form method="dialog"><button class="close-button" aria-label="Close prompt notes">×</button></form><span class="eyebrow">THE BRIEF / PROMPT NOTES</span><h2 id="notesTitle">Prompt notes</h2><div class="notes-references" id="notesReferences"></div><label for="promptInput">What should happen in this shot?</label><textarea id="promptInput" rows="7"></textarea><p class="notes-help">Keep one clear action. Both models receive the same brief and reference inputs supported by the backend.</p><div class="notes-actions"><button class="secondary-button" id="savePrompt">Save notes</button><button class="red-action" id="generateFromNotes">Generate two videos <span aria-hidden="true">↗</span></button></div><p class="notes-help" id="notesStatus" role="status"></p></dialog>
+  <dialog class="settings-dialog" id="settingsDialog" aria-labelledby="settingsTitle"><form method="dialog"><button class="close-button" aria-label="Close studio settings">×</button></form><span class="eyebrow">OPENROUTER DEMO</span><h2 id="settingsTitle">Welcome to the studio.</h2><p id="loginIntro">Enter the demo password to generate with Michelle’s OpenRouter credits. You don’t need your own account or API key.</p><form id="unlockForm"><label for="passcodeInput">Password</label><input id="passcodeInput" type="password" autocomplete="current-password" placeholder="Demo password" required><button class="red-action" type="submit">Enter the studio <span aria-hidden="true">↗</span></button></form><details id="apiKeyPanel" class="api-key-panel" hidden><summary>Change API key</summary><form id="apiKeyForm"><label for="apiKeyInput">OpenRouter API key</label><input id="apiKeyInput" type="password" autocomplete="off" placeholder="sk-or-…"><button class="secondary-button" type="submit">Verify &amp; save key</button></form></details><p id="settingsStatus" class="notes-help" role="status"></p></dialog>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="public-scene-defaults.js"></script><script src="corgi-poses.js"></script><script src="scene.js"></script><script src="mail-scene.js?v=cheap-draft-1"></script><script src="takehome-scene.js?v=cheap-draft-1"></script><script src="takehome.js?v=model-notes-1"></script>
+</body>
+</html>

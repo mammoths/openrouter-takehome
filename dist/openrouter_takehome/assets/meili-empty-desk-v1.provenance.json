@@ -1,0 +1,5 @@
+{
+  "tool": "image_gen (built-in)",
+  "source": "exec-a68cbd4f-a98a-4303-a3ce-9fcbe3c9f8c7.png",
+  "prompt": "Precise object edit of this existing transparent isometric pixel sprite: remove ONLY Meili the corgi (head, body, pink skirt, paws, tail). Leave her entire desk, keyboard, computer screen, stationery, little plant, chair and chair legs intact, in precisely the same positions, perspective, pixel density and scale. Fill in the now-empty chair behind her with sage upholstery. Keep the same square canvas framing and transparent gutters. This is the empty workstation frame shown when the dog walks away; furniture must match the original frame exactly, no redesign, no new objects, no lighting or camera change. Transparent background."
+}

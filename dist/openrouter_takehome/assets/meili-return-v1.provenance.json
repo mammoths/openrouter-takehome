@@ -1,0 +1,5 @@
+{
+  "tool": "image_gen (built-in)",
+  "source": "exec-fddab44d-b760-4770-ae0c-7c2247b9abf7.png",
+  "prompt": "Edit this exact transparent Meili sprite sheet. Keep all six corgis, pixel style, anatomy, clothes, layout and scale unchanged. Remove ONLY the glass bottles from her mouth in the top middle cell and all three bottom row walk frames. Reconstruct a tiny natural closed mouth where necessary, preserving the nose and facial expression. All three bottom frames should now be EMPTY-MOUTH walking, for her return to her desk after dropping off a letter. Preserve transparency everywhere; do not add shadows, labels or new props."
+}

@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: identity-preserve. Asset type: transparent pixel-art game sprite sheet. Reference: Pip chalk sprite sheet identity/style, NOT reference front-facing direction. Create a new FOUR-frame horizontal sprite sheet with equal columns. Pip is STANDING UPRIGHT on short hind paws, facing AWAY from viewer toward UPPER RIGHT / northeast at an imaginary chalkboard. THREE-QUARTER BACK VIEW: mostly back of orange ears, back of head, dark waistcoat back, tiny orange tail; only small sliver of right cheek and black glasses arm visible, NOT both eyes, NOT a front-facing chest or tie. Preserve orange/ivory corgi proportions, black waistcoat, white collar, round glasses. His RIGHT forepaw lifts with a SHORT bent anatomically connected foreleg toward upper-right, holding a TINY white chalk stub. Left paw near body. Four subtly different chalk-writing strokes: low, high, across, return. Same registered planted feet, head, torso and scale in all frames. Fully transparent RGBA background. Chunky crisp square pixel art matching reference, no blur, no gradients, no shadows. Complete silhouette each frame, ample empty gutters. No board, no furniture, no scenery, no pencil, no labels or borders. Important: turn whole body toward the wall, do not just rotate the head; seen from elevated isometric game camera. Wide 3:1 sheet, four columns.",
+  "reference": "pip-chalk-v1.png",
+  "asset": "pip-chalk-back-v2.png",
+  "generatedOutput": "exec-5c8a1bfa-6607-4296-94d2-b9fa64c06c8e.png",
+  "registration": "web/corgi-poses.js"
+}

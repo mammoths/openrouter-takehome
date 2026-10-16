@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: identity-preserve. New transparent game sprite sheet, exactly THREE uniform frames horizontal row. Reference is Pip character/pixel art identity only. Draw Pip SEATED typing at an imaginary keyboard facing UPPER LEFT, northwest, THREE-QUARTER BACK VIEW. Mostly back of orange head and ears and black waistcoat back visible, only small left cheek and black glasses arm, not front face. Orange/ivory corgi, round black glasses, dark waistcoat, white shirt collar, tiny tail, short natural connected forelegs reaching upper-left at chest height to imaginary keyboard. Full complete silhouette including both short hind paws under seated rump. No desk, no keyboard, no chair, no props, no text. Three frames same stationary head, rump, feet registration: both typing paws down, near paw slightly raised, far paw slightly raised. Subtle connected forepaw strokes only, no severed hands. Crisp chunky pixel-art hard outlines exact reference palette, no gradients, no shadows, transparent background. Adequate transparent gutters and equal column spacing, stable size. This is the opposite back direction to the front-right reference; show his back, not his face.",
+  "reference": "pip-desk-se-v3.png",
+  "asset": "pip-desk-back-v1.png",
+  "generatedOutput": "exec-56403b53-4d36-44a5-b2c8-e843efca1eab.png",
+  "registration": "web/corgi-poses.js"
+}

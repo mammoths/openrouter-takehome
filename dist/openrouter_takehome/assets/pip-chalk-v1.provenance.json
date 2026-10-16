@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "asset": "pip-chalk-v1.png",
+  "prompt": "Use case: stylized-concept. Asset type: transparent game animation sprite sheet. Reference image is Pip's existing pixel sprite sheet, used only as character and pixel-art style reference. Create a NEW chalk-writing animation sheet: exactly FOUR equally spaced frames in ONE horizontal row, on a fully transparent background, no text or grid. Each frame is the same complete full-body Pip standing upright on his two short hind paws, stable feet baseline, same size and head/torso/feet in all frames. Pip is an orange and ivory corgi with tall triangular ears, round black glasses, black vest, white shirt collar and black tie, exactly matching reference identity, chunky clean pixel-art outlines and limited flat palette. Face and body in three-quarter profile looking to the RIGHT toward an imaginary chalkboard, with his nearer forepaw lifted to shoulder height and bent naturally at elbow, holding a TINY WHITE STUB OF CHALK between paw pads. Other paw rests near chest. Four consecutive subtle writing poses: chalk paw low, slightly higher, rightward stroke, return. Keep foreleg SHORT and anatomically connected to shoulder, NO extended stick, NO pencil, no brush, no board, no desk, no scenery. Full sprite silhouette separated by ample transparent gutter, no clipped ears or chalk, crisp hard pixel edges, no soft shadows, no gradients, no antialias blur. Head and planted hind paws registered consistently across all frames; only lifted chalk paw changes. Wide 4:1 sheet layout.",
+  "reference": "pip-desk-se-v3.png",
+  "generatedOutput": "exec-f4e53678-0fec-42c6-98de-166b010b7b44.png",
+  "registration": "web/corgi-poses.js",
+  "note": "Original RGBA copied unchanged. Source rectangles align complete sprites at a common hind-paw baseline."
+}

@@ -1,0 +1,7 @@
+{
+  "tool": "Built-in image_gen imagegen",
+  "prompt": "Use case: stylized-concept. Asset type: transparent pixel-art thought-bubble sprite for The Daily Meili office game, used above a small corgi or owl carrying a folder. Primary request: a single reusable EMPTY thought bubble, no words. A softly cloud-shaped horizontal bubble, broad quiet center for two short lines of live text, with two small detached round thought dots descending toward the lower-left. Style: deliberate chunky stepped pixel edges, cozy restrained game UI, readable at about 200 pixels wide, not shiny or kawaii. Palette: warm paper cream #fffced opaque interior, muted sage-gray #747b69 narrow outline, a restrained lighter sage #b8c4aa lower-edge shadow no more than one pixel cluster thick. Simple balanced silhouette: three to four low rounded lobes on top, gentle rounded ends, shallow lobes below, generous rectangular usable center. The main bubble should occupy roughly 85% of image width and 65% of image height, with room below for the dots; generous transparent margin. No character, no room, no text, no symbols, no crop marks, no frame around the whole image. No gradients, soft blur, glow or drop shadow. Actual transparent background and fully opaque cream bubble fill. One sprite only.",
+  "source": "exec-c586a2e4-98d3-45c5-a3a1-79dea7590f2b.png",
+  "asset": "delivery-thought-v1.png",
+  "use": "Reusable delivery thought cloud. Text drawn separately. Existing runtime pixelCutout removes low-alpha fringe, nearest-neighbor drawing retains the sprite edge."
+}

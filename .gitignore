@@ -1,0 +1,17 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+# Runtime and build state
+node_modules/
+.wrangler/
+.DS_Store
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.tar.gz
